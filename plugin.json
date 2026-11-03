@@ -1,0 +1,36 @@
+{
+    "name": "PLG_LANGUAGE_OVERRIDES_NAME",
+    "description": "PLG_LANGUAGE_OVERRIDES_DESCRIPTION",
+    "version": "0.1.0",
+    "author": "Reinhold Kainhofer",
+    "url": "https://github.com/kainhofer/admidio-language-overrides/",
+    "icon": "bi-translate",
+    "requires": {
+        "admidio": ">=6.0",
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "AdmidioPlugin\\LanguageOverrides\\": "src/"
+    },
+    "preferences": {
+        "section": "content_management",
+        "sequence": 50
+    },
+    "settings": {
+        "language_overrides_backup_count": {
+            "type": "integer",
+            "default": 20,
+            "min": 0,
+            "max": 500,
+            "step": 1,
+            "label": "PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT",
+            "description": "PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT_DESC"
+        },
+        "language_overrides_show_installer_strings": {
+            "type": "boolean",
+            "default": false,
+            "label": "PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS",
+            "description": "PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS_DESC"
+        }
+    }
+}

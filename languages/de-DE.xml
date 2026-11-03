@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_OVERRIDES_ALSO_ENGLISH">Auch Englisch durchsuchen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_APPLY_TO_OTHER_GERMAN">Denselben Text für #VAR1# verwenden</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_APPLY_TO_OTHER_GERMAN_DESC">Deutsch gibt es in zwei Anredeformen, persönlich (de) und förmlich (de-DE). Ist dies angehakt, erhält die andere ebenfalls Ihren Text, und eine dort vorhandene Anpassung wird ersetzt. Sonst bleibt sie unverändert.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT">Sicherungen pro Sprache</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT_DESC">Bevor eine Anpassungsdatei geändert wird, wird die alte Datei in den Sicherungsordner der Installation kopiert, Unterordner language-overrides. So viele Kopien jeder Sprache werden behalten; 0 schaltet die Kopien ab. (Standard: 20)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_FAILED">Die alte Datei konnte nicht in den Sicherungsordner #VAR1_BOLD# kopiert werden. Es wurde nichts geändert.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_CONFLICT">Die Anpassungsdatei für #VAR1_BOLD# wurde inzwischen geändert. Bitte öffnen Sie den Text erneut.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_CUSTOMIZE">Diesen Text ändern</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_DESCRIPTION">Ändern Sie, wie Admidio für Ihre Benutzer formuliert: Durchsuchen Sie alle Texte von Admidio und ersetzen Sie jeden davon durch Ihre eigene Formulierung, zum Beispiel „Mitgliederliste“ statt „Kontakte“.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EDIT_TEXT">Text #VAR1# ändern</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EMPTY_TEXT">Der Text für #VAR1_BOLD# darf nicht leer sein. Um zum Original zurückzukehren, verwenden Sie „Original wiederherstellen“.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EXTRA_PLACEHOLDER">Der Text für #VAR1_BOLD# verwendet #VAR2#, was der Originaltext nicht hat.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_FILE_UNREADABLE">Die Anpassungsdatei #VAR1_BOLD# ist keine gültige Sprachdatei. Admidio kann sie ebenfalls nicht lesen, bitte korrigieren oder entfernen Sie sie.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_FIND_TEXT">Text suchen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_INVALID_REGEX">Der Suchausdruck ist kein gültiger regulärer Ausdruck.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_KEY">Text-ID</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_MY_OVERRIDES">Ihre Anpassungen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NAME">Sprachanpassungen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NOT_WRITABLE">In den Ordner oder die Datei #VAR1_BOLD# kann nicht geschrieben werden.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NO_OVERRIDES">Es gibt noch keine Anpassungen. Suchen Sie oben nach einem Text, um ihn zu ändern.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NO_RESULTS">Kein Text gefunden.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_ORIGINAL">Original</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_ORIGINAL_IN">Original (#VAR1#)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_OVERRIDDEN_IN">Angepasst in</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_OVERRIDE">Ihr Text</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_PLACEHOLDERS_HELP">An der Stelle #VAR1# werden Werte eingesetzt. Behalten Sie sie in Ihrem Text bei, sonst wird der Wert nicht angezeigt. Ein Zeilenumbruch wird als neue Zeile geschrieben.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_REGEX">Regulärer Ausdruck</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_RESET">Original wiederherstellen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_RESET_CONFIRM">Möchten Sie die Anpassung von #VAR1_BOLD# entfernen und den Originaltext wiederherstellen?</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SEARCH">Suchen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SEARCH_PLACEHOLDER">Ein Wort oder eine Wendung, wie auf der Seite angezeigt, oder eine Text-ID</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS">Installationstexte durchsuchen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS_DESC">Texte, die nur die Installation und das Update anzeigen (INS_…), werden bei der Suche ausgelassen, solange dies nicht eingeschaltet ist.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS">Status</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_ORPHANED">Unbekannte Text-ID</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_OUTDATED">Original geändert</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_OUTDATED_DESC">Der Originaltext wurde durch ein Update geändert, nachdem diese Anpassung erstellt wurde. Prüfen Sie, ob Ihr Text noch passt.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_PLACEHOLDERS">Wert fehlt</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_PLACEHOLDERS_DESC">Der Originaltext zeigt einen Wert (#VAR1# …), den Ihr Text auslässt.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TEXT_IN">Ihr Text (#VAR1#)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TEXT_TOO_LONG">Ein Text darf höchstens #VAR1# Zeichen lang sein.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TOO_MANY_RESULTS">Es werden die ersten #VAR1# von #VAR2# Texten angezeigt, die besten Treffer zuerst. Geben Sie mehr vom Text ein, um die Suche einzugrenzen.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_UNKNOWN_TEXT">Die Text-ID #VAR1_BOLD# existiert nicht.</string>
+</resources>

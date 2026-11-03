@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_OVERRIDES_ALSO_ENGLISH">Also search English</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_APPLY_TO_OTHER_GERMAN">Use the same text for #VAR1#</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_APPLY_TO_OTHER_GERMAN_DESC">German exists in two forms of address, informal (de) and formal (de-DE). If this is ticked the other one gets your text too and an override it already has is replaced. Otherwise it is left as it is.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT">Backups per language</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_COUNT_DESC">Before an override file is changed, the old file is copied to the backup folder of the installation, subfolder language-overrides. This many copies of each language are kept; 0 turns the copies off. (Default: 20)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_BACKUP_FAILED">The old file could not be copied to the backup folder #VAR1_BOLD#. Nothing was changed.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_CONFLICT">The override file for #VAR1_BOLD# was changed in the meantime. Please open the text again.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_CUSTOMIZE">Change this text</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_DESCRIPTION">Change how Admidio words things for your users: search all texts of Admidio and replace any of them with your own wording, for example "Members" instead of "Contacts".</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EDIT_TEXT">Change the text #VAR1#</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EMPTY_TEXT">The text for #VAR1_BOLD# must not be empty. To go back to the original use "Restore the original".</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_EXTRA_PLACEHOLDER">The text for #VAR1_BOLD# uses #VAR2#, which the original text does not have.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_FILE_UNREADABLE">The override file #VAR1_BOLD# is not a valid language file. Admidio cannot read it either, so please correct or remove it.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_FIND_TEXT">Find a text</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_INVALID_REGEX">The search expression is not a valid regular expression.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_KEY">Text id</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_MY_OVERRIDES">Your overrides</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NAME">Language overrides</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NOT_WRITABLE">The folder or file #VAR1_BOLD# cannot be written.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NO_OVERRIDES">There are no overrides yet. Search for a text above to change it.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_NO_RESULTS">No text found.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_ORIGINAL">Original</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_ORIGINAL_IN">Original (#VAR1#)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_OVERRIDDEN_IN">Overridden in</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_OVERRIDE">Your text</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_PLACEHOLDERS_HELP">Values are inserted at #VAR1#. Keep them in your text, otherwise the value is not shown. A line break is written as a new line.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_REGEX">Regular expression</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_RESET">Restore the original</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_RESET_CONFIRM">Do you want to remove the override of #VAR1_BOLD# and restore the original text?</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SEARCH">Search</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SEARCH_PLACEHOLDER">A word or phrase as shown on the page, or a text id</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS">Search installer texts</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_SHOW_INSTALLER_STRINGS_DESC">The texts that only the installation and the update show (INS_…) are left out of the search unless this is switched on.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS">Status</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_ORPHANED">Unknown text id</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_OUTDATED">Original changed</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_OUTDATED_DESC">The original text was changed by an update after this override was written. Check that your text still fits.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_PLACEHOLDERS">Value missing</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_STATUS_PLACEHOLDERS_DESC">The original text shows a value (#VAR1# …) that your text leaves out.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TEXT_IN">Your text (#VAR1#)</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TEXT_TOO_LONG">A text may have at most #VAR1# characters.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_TOO_MANY_RESULTS">Showing the first #VAR1# of #VAR2# texts, the best matches first. Type more of the text to narrow the search.</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_UNKNOWN_TEXT">The text id #VAR1_BOLD# does not exist.</string>
+</resources>
