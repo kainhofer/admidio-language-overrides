@@ -2,9 +2,11 @@
     "name": "PLG_LANGUAGE_OVERRIDES_NAME",
     "description": "PLG_LANGUAGE_OVERRIDES_DESCRIPTION",
     "version": "0.1.0",
+    "beta": 1,
     "author": "Reinhold Kainhofer",
     "url": "https://github.com/kainhofer/admidio-language-overrides/",
     "icon": "bi-translate",
+    "menuParent": "administration",
     "requires": {
         "admidio": ">=6.0",
         "php": ">=8.2"

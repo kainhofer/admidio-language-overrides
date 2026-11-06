@@ -14,6 +14,7 @@
   <string name="PLG_LANGUAGE_OVERRIDES_EXTRA_PLACEHOLDER">The text for #VAR1_BOLD# uses #VAR2#, which the original text does not have.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_FILE_UNREADABLE">The override file #VAR1_BOLD# is not a valid language file. Admidio cannot read it either, so please correct or remove it.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_FIND_TEXT">Find a text</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_INTRO">Admidio's texts can be customized in the files adm_my_files/language/&amp;lt;LANGUAGE&amp;gt;.xml. This page is a convenient way to edit these files: search for a text, change its wording and save. The plugin is only needed while you set up your wording. Admidio applies the saved texts on its own, so you can deactivate the plugin afterwards.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_INVALID_REGEX">The search expression is not a valid regular expression.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_KEY">Text id</string>
   <string name="PLG_LANGUAGE_OVERRIDES_MY_OVERRIDES">Your overrides</string>

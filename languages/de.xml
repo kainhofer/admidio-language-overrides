@@ -14,6 +14,7 @@
   <string name="PLG_LANGUAGE_OVERRIDES_EXTRA_PLACEHOLDER">Der Text für #VAR1_BOLD# verwendet #VAR2#, was der Originaltext nicht hat.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_FILE_UNREADABLE">Die Anpassungsdatei #VAR1_BOLD# ist keine gültige Sprachdatei. Admidio kann sie ebenfalls nicht lesen, bitte korrigiere oder entferne sie.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_FIND_TEXT">Text suchen</string>
+  <string name="PLG_LANGUAGE_OVERRIDES_INTRO">Die Texte von Admidio können in den Dateien adm_my_files/language/&amp;lt;LANGUAGE&amp;gt;.xml angepasst werden. Diese Seite ist eine bequeme Möglichkeit, diese Dateien zu bearbeiten: Suche einen Text, ändere seinen Wortlaut und speichere. Das Plugin wird nur für die Einrichtung benötigt. Admidio verwendet die gespeicherten Texte selbstständig, du kannst das Plugin danach also deaktivieren.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_INVALID_REGEX">Der Suchausdruck ist kein gültiger regulärer Ausdruck.</string>
   <string name="PLG_LANGUAGE_OVERRIDES_KEY">Text-ID</string>
   <string name="PLG_LANGUAGE_OVERRIDES_MY_OVERRIDES">Deine Anpassungen</string>

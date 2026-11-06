@@ -2,17 +2,19 @@
     <div class="alert alert-danger" role="alert"><i class="bi bi-exclamation-triangle-fill"></i> {$fileError}</div>
 {/foreach}
 
+<p class="mb-3">{$l10n->get('PLG_LANGUAGE_OVERRIDES_INTRO')}</p>
+
 <div class="card admidio-field-group mb-3">
     <div class="card-header">{$l10n->get('PLG_LANGUAGE_OVERRIDES_FIND_TEXT')}</div>
     <div class="card-body">
         <form id="lo_search_form" method="get" action="{$searchUrl}" class="row g-2 align-items-center" autocomplete="off">
             <input type="hidden" name="mode" value="list">
-            <div class="col-12 col-md">
+            <div class="col" style="flex: 1 1 12rem;">
                 <input type="text" name="query" value="{$query|escape}" class="form-control" autofocus
                        placeholder="{$l10n->get('PLG_LANGUAGE_OVERRIDES_SEARCH_PLACEHOLDER')}">
             </div>
-            <div class="col-12 col-md-auto">
-                <select name="lang" class="form-select" aria-label="{$l10n->get('SYS_LANGUAGE')}">
+            <div class="col-auto">
+                <select name="lang" class="form-select" style="width: 9rem;" aria-label="{$l10n->get('SYS_LANGUAGE')}">
                     {foreach $languages as $code => $name}
                         <option value="{$code}"{if $code eq $language} selected{/if}>{$name|escape}</option>
                     {/foreach}
