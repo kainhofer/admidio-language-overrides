@@ -65,7 +65,7 @@
                         <td style="word-break: break-word;">{$row.original nofilter}</td>
                         <td style="word-break: break-word;">{$row.override nofilter}</td>
                         <td>{$row.status nofilter}</td>
-                        <td class="text-end">{include 'sys-template-parts/list.functions.tpl' data=$row}</td>
+                        <td class="text-end">{include 'sys-template-parts/list.functions.tpl' listId='language-overrides' data=$row}</td>
                     </tr>
                 {/foreach}
             </tbody>

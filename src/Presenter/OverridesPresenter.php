@@ -368,11 +368,13 @@ JS;
                     'status' => implode(' ', $badges),
                     'actions' => array(
                         array(
+                            'id' => 'edit',
                             'url' => $this->pageUrl(array('mode' => 'edit', 'key' => $id, 'lang' => $code, 'en' => 0)),
                             'icon' => 'bi bi-pencil-square',
                             'tooltip' => $gL10n->get('SYS_EDIT')
                         ),
                         array(
+                            'id' => 'reset',
                             'dataHref' => 'callUrlHideElement(\'' . $rowId . '\', \'' . $deleteUrl . '\', \''
                                 . $gCurrentSession->getCsrfToken() . '\')',
                             'dataMessage' => $gL10n->get('PLG_LANGUAGE_OVERRIDES_RESET_CONFIRM', array($id)),
